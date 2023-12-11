@@ -13,7 +13,7 @@ function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="relative">
+    <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
@@ -26,7 +26,7 @@ function App() {
               />
             </a>
           </div>
-          <div className="absolute inset-0 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 blur-3xl">
+          <div className="flex lg:hidden">
             <button
               type="button"
               className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
@@ -36,7 +36,7 @@ function App() {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="relative isolate px-6 pt-14 lg:px-8">
+          <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
               <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
                 {item.name}
@@ -125,7 +125,7 @@ function App() {
               Data to enrich your online business
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              PSDDDDDDDDDDDDDDDDDDDDDDDDDDDA
+              Hola
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
