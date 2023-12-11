@@ -125,7 +125,7 @@ function App() {
               Data to enrich your online business
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Hola
+              PPPP
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
