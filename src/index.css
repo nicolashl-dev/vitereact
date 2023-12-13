@@ -2,20 +2,3 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-
-/* Tu otro código CSS aquí */
-@keyframes moveLeftToRight {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(100% - 100px)); /* Ajusta la anchura del div según tus necesidades */
-  }
-}
-
-.dive {
-  width: 100px; /* Ajusta el tamaño del div según tus necesidades */
-  height: 100px; /* Ajusta el tamaño del div según tus necesidades */
-  background-color: blue; /* Ajusta el color del div según tus necesidades */
-  animation: moveLeftToRight 5s linear infinite; /* Ajusta la duración de la animación según tus necesidades */
-}
